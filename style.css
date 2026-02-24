@@ -172,7 +172,7 @@ h1{
 /* ================= PLACEHOLDER ================= */
 .placeholder{
   margin-top:24px;
-  padding:30px;
+  padding:25px;
   border-radius:20px;
   background: rgba(18,23,53,0.6);
   border:1px solid var(--border);
