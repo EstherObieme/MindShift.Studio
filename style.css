@@ -1,0 +1,81 @@
+<!-- ===================== style.css ===================== -->
+:root {
+    --bg: #0a0f1f;
+    --panel: rgba(255,255,255,0.06);
+    --panel-2: rgba(255,255,255,0.1);
+    --text: #e6f1ff;
+    --muted: #9fb3ff;
+    --primary: #6ee7ff;
+    --accent: #7c5cff;
+    --glow: 0 0 20px rgba(110,231,255,0.35), 0 0 40px rgba(124,92,255,0.25);
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: var(--text);
+    background: radial-gradient(1200px 600px at 20% -10%, rgba(124,92,255,0.25), transparent 60%),
+                radial-gradient(800px 500px at 100% 0%, rgba(110,231,255,0.2), transparent 60%),
+                var(--bg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    backdrop-filter: blur(10px);
+}
+
+nav a {
+    color: var(--muted);
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--primary);
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+section {
+    max-width: 1000px;
+    margin: 60px auto;
+}
+
+.card {
+    background: var(--panel);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    color: black;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag {
+    padding: 6px 12px;
+    background: var(--panel-2);
+    border-radius: 20px;
+}
