@@ -54,7 +54,7 @@ nav .container{
   width:100%;
   max-width:none;
   margin:0;
-  padding:0 40px; /* controls left & right spacing */
+  padding:10px 40px; /* controls left & right spacing */
 }
 
 .nav-inner{
