@@ -171,7 +171,7 @@ h1{
 
 /* ================= PLACEHOLDER ================= */
 .placeholder{
-  margin-top:24px;
+  margin-top:22px;
   padding:25px;
   border-radius:20px;
   background: rgba(18,23,53,0.6);
@@ -186,5 +186,5 @@ footer{
   border-top:1px solid var(--border);
   color:var(--muted);
   text-align:center;
-  font-size:10px;
+  font-size:9px;
 }
