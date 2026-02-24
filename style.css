@@ -186,4 +186,5 @@ footer{
   border-top:1px solid var(--border);
   color:var(--muted);
   text-align:center;
+  font-size:10px;
 }
